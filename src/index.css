@@ -1,0 +1,79 @@
+@import 'tailwindcss';
+
+/* ============ 孕语 设计系统 ============ */
+@theme {
+  /* 中性底：奶油宣纸 */
+  --color-paper: #f5f0e8;
+  --color-paper-deep: #ece4d6;
+  --color-ink: #2b2420;
+  --color-ink-soft: #6b5f54;
+  --color-ink-faint: #a89a8a;
+  --color-line: #e2d8c8;
+
+  /* 主色系 */
+  --color-clay: #c77b5a;
+  --color-clay-deep: #a85f40;
+  --color-clay-soft: #e8c4b0;
+  --color-sage: #4a5d4e;
+  --color-sage-deep: #37473b;
+  --color-sage-soft: #b9c6ba;
+
+  /* 四阶段强调色 */
+  --color-ttc: #d99a6c;      /* 备孕 · 暖杏 */
+  --color-pregnancy: #c77b5a; /* 怀孕 · 赤陶 */
+  --color-postpartum: #4a5d4e;/* 产后 · 鼠尾草 */
+  --color-parenting: #7c94a8; /* 养育 · 雾蓝 */
+
+  /* 语义 */
+  --color-danger: #b04a3f;
+  --color-danger-bg: #8f2f26;
+
+  /* 字体 */
+  --font-serif: 'Noto Serif SC', 'Songti SC', serif;
+  --font-sans: 'Noto Sans SC', system-ui, sans-serif;
+
+  /* 圆角 */
+  --radius-card: 20px;
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  color: var(--color-ink);
+  background-color: var(--color-paper);
+  -webkit-font-smoothing: antialiased;
+  font-weight: 400;
+}
+
+/* 隐藏滚动条但保留滚动 */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* 纸张纹理噪点 */
+.paper-grain {
+  background-image: radial-gradient(
+    rgba(43, 36, 32, 0.035) 1px,
+    transparent 1px
+  );
+  background-size: 4px 4px;
+}
+
+.font-serif-num {
+  font-family: var(--font-serif);
+  font-feature-settings: 'tnum';
+}
