@@ -1,0 +1,132 @@
+.github/workflows/deploy.yml
+  h_b486536c642c36 1-59
+.gitignore
+  h_b486536c642c36 1-25
+.oxlintrc.json
+  h_b486536c642c36 1-8
+.trae/documents/PRD-孕育全周期.md
+  h_b486536c642c36 1-124
+.trae/documents/技术架构-孕育全周期.md
+  h_b486536c642c36 1-139
+README.md
+  h_b486536c642c36 1-42
+index.html
+  h_b486536c642c36 1-45
+package-lock.json
+  h_b486536c642c36 1-7689
+package.json
+  h_b486536c642c36 1-33
+public/404.html
+  h_b486536c642c36 1-34
+public/favicon.svg
+  h_b486536c642c36 1
+public/icon-192.svg
+  h_b486536c642c36 1-8
+public/icon-512.svg
+  h_b486536c642c36 1-8
+public/icons.svg
+  h_b486536c642c36 1-24
+src/App.tsx
+  h_b486536c642c36 1-44
+src/assets/react.svg
+  h_b486536c642c36 1
+src/assets/vite.svg
+  h_b486536c642c36 1
+src/components/AppShell.tsx
+  h_b486536c642c36 1-21
+src/components/PWAPrompt.tsx
+  h_b486536c642c36 1-157
+src/components/PageHeader.tsx
+  h_b486536c642c36 1-17
+src/components/TabBar.tsx
+  h_b486536c642c36 1-38
+src/components/family/ImageViewer.tsx
+  h_b486536c642c36 1-64
+src/components/family/MemberSheet.tsx
+  h_b486536c642c36 1-152
+src/components/family/MomentCard.tsx
+  h_b486536c642c36 1-201
+src/components/family/MomentSheet.tsx
+  h_b486536c642c36 1-217
+src/components/home/ConceptionCurve.tsx
+  h_b486536c642c36 1-133
+src/components/home/QuickRecord.tsx
+  h_b486536c642c36 1-78
+src/components/home/StageHeroCard.tsx
+  h_b486536c642c36 1-116
+src/components/home/StageSwitchHint.tsx
+  h_b486536c642c36 1-44
+src/components/home/TodayTodo.tsx
+  h_b486536c642c36 1-103
+src/components/knowledge/KnowledgeCard.tsx
+  h_b486536c642c36 1-48
+src/components/record/OvulationCard.tsx
+  h_b486536c642c36 1-100
+src/components/record/RecordHistory.tsx
+  h_b486536c642c36 1-68
+src/components/record/RecordSheet.tsx
+  h_b486536c642c36 1-134
+src/components/record/WeightChart.tsx
+  h_b486536c642c36 1-61
+src/components/ui/Button.tsx
+  h_b486536c642c36 1-37
+src/components/ui/Card.tsx
+  h_b486536c642c36 1-37
+src/components/ui/Chip.tsx
+  h_b486536c642c36 1-30
+src/data/knowledge.ts
+  h_b486536c642c36 1-409
+src/index.css
+  h_b486536c642c36 1-79
+src/main.tsx
+  h_b486536c642c36 1-10
+src/pages/EmergencyPage.tsx
+  h_b486536c642c36 1-65
+src/pages/FamilyPage.tsx
+  h_b486536c642c36 1-252
+src/pages/HomePage.tsx
+  h_b486536c642c36 1-111
+src/pages/KnowledgePage.tsx
+  h_b486536c642c36 1-87
+src/pages/OnboardingPage.tsx
+  h_b486536c642c36 1-190
+src/pages/ProfilePage.tsx
+  h_b486536c642c36 1-168
+src/pages/RecordPage.tsx
+  h_b486536c642c36 1-166
+src/pages/StageSwitchPage.tsx
+  h_b486536c642c36 1-170
+src/store/appStore.ts
+  h_b486536c642c36 1-307
+src/types/index.ts
+  h_b486536c642c36 1-131
+src/utils/compliance.ts
+  h_b486536c642c36 1-67
+src/utils/pregnancy.ts
+  h_b486536c642c36 1-171
+src/utils/stages.ts
+  h_b486536c642c36 1-88
+src/vite-env.d.ts
+  h_b486536c642c36 1-2
+tsconfig.app.json
+  h_b486536c642c36 1-26
+tsconfig.json
+  h_b486536c642c36 1-7
+tsconfig.node.json
+  h_b486536c642c36 1-23
+vite.config.ts
+  h_b486536c642c36 1-75
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.21",
+  "base_commit_sha": "7ac6f97be78b5f761da2d1ce400ddf0cb0d7f61f",
+  "prompts": {},
+  "humans": {
+    "h_b486536c642c36": {
+      "author": "zhaoyiyang666 <zhaoyiyang666@users.noreply.github.com>"
+    }
+  },
+  "attestation_metadata": {},
+  "remote_transcripts": {}
+}
