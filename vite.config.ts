@@ -23,7 +23,7 @@ export default defineConfig({
       registerType: 'autoUpdate',
       // 开发模式下也启用 SW，方便手机端调试「添加到主屏幕」
       devOptions: { enabled: true, type: 'module' },
-      includeAssets: ['favicon.svg', 'apple-touch-icon.png'],
+      includeAssets: ['favicon.png', 'apple-touch-icon.png'],
       workbox: {
         // 缓存构建产物与字体，支持离线打开
         globPatterns: ['**/*.{js,css,html,svg,png,woff2}'],
@@ -63,7 +63,7 @@ export default defineConfig({
             purpose: 'any',
           },
           {
-            src: 'icon-512.png',
+            src: 'icon-maskable-512.png',
             sizes: '512x512',
             type: 'image/png',
             purpose: 'maskable',
